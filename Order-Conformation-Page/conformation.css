@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+#conformation-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#check-btn {
+  font-size: 150px;
+  color: green;
+}
