@@ -1,6 +1,6 @@
 #header {
   width: 100%;
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   background-color: #fbfcfc;
@@ -19,7 +19,7 @@
   margin: 0;
   color: #212f3d;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 45px;
   font-weight: lighter;
   font-family: "Monoton", cursive;
 }
@@ -33,7 +33,7 @@
   color: #212f3d;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 20px;
 }
 #nav {
   display: none;
@@ -44,10 +44,12 @@
 }
 #searchbar input {
   outline: none;
+  height: 20px;
+  width: 80%;
 }
 #searchbar input::placeholder {
   color: gray;
-  font-size: 10px;
+  font-size: 15px;
 }
 #cart-info {
   width: 25%;
@@ -56,14 +58,17 @@
   align-items: center;
 }
 #cart-info img {
-  width: 35px;
+  width: 50px;
   border-radius: 50px;
+}
+#cart-info a {
+  font-size: 25px;
 }
 
 #footer-section {
   margin-top: 100px;
   width: 100%;
-  height: 100px;
+  height: 180px;
   display: flex;
   justify-content: space-evenly;
   background-color: #17202a;
@@ -78,13 +83,13 @@
 }
 .footer-containt p {
   color: #fbfcfc;
-  font-size: 12px;
+  font-size: 20px;
   margin: 0;
 }
 .footer-containt a {
   color: #fbfcfc;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
 }
 .edyoda-logo {
   width: 80px;

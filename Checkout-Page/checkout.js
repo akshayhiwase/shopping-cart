@@ -64,7 +64,7 @@ function priceSection(data) {
     priceSection.appendChild(ammountTag)
     const totalAmmount = document.createElement("h3")
     totalAmmount.className = "total-ammount"
-    totalAmmount.innerHTML = data.totalPrice
+    totalAmmount.innerHTML = "Rs" + ' ' + data.totalPrice
     priceSection.appendChild(totalAmmount)
     const placeOrderButton = document.createElement("input")
     placeOrderButton.className = "place-order-button"
