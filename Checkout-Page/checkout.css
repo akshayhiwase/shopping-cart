@@ -97,3 +97,59 @@ input {
   width: 80%;
   height: auto;
 }
+
+@media only screen and (min-width: 350px) {
+  #checkout-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  #checkout-section-container {
+    width: 100%;
+  }
+  .checkout-section {
+    padding: 10px;
+  }
+  .price-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-details-section {
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #checkout-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  #checkout-section-container {
+    width: 100%;
+  }
+  .checkout-section {
+    padding: 10px;
+  }
+  .price-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #checkout-container {
+    width: 100%;
+    flex-direction: row;
+  }
+  #checkout-section-container {
+    width: 100%;
+  }
+  .checkout-section {
+    padding: 10px;
+  }
+  .price-section {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

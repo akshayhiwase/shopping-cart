@@ -66,3 +66,45 @@ body {
   border: none;
   cursor: pointer;
 }
+
+@media only screen and (min-width: 350px) {
+  #product-section {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-image-wrapper {
+    width: 40%;
+  }
+  .item-main-image {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #product-section {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .item-image-wrapper {
+    width: 50%;
+  }
+  .item-main-image {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #product-section {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-image-wrapper {
+    width: 50%;
+  }
+  .item-main-image {
+    width: 55%;
+  }
+}
